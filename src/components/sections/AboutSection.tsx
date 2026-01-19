@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div
             className="aspect-square bg-cover bg-center rounded-lg grayscale hover:grayscale-0 transition-all duration-700"
             style={{
-              backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtNV_WhAAGka105el1qwFvCUV9ymPiwQ0d1obkWfy3Le_b3lycri0AEHTlTTw1cuQO0Gn7BTpWPCeAsPfeoSImI7eXM4Jmb66Sm4SdtO_DxdAgaaKRwkxSw3gCL5LSQfbseihrONwheDfTqTgswM1V23WvQOe7J9reokGZ6fc0hZIEvV6C5akGvSw_MM8SDg13lAR6CHMvdGfYWNDdbYeP5eVcaZUdIVNMKBMiDO5nLs5BYVzYGddYAPUh2HDVgMb9OKNoWsiqXZO4")`,
+              backgroundImage: `url("https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80")`,
             }}
           />
         </div>

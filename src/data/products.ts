@@ -2,114 +2,114 @@ import { Product } from "@/types/product";
 
 export const products: Product[] = [
   {
-    id: "velvet-armchair",
-    name: "Velvet Armchair",
-    description: "Plush comfort, timeless design",
+    id: "camisa-preta-essencial",
+    name: "Camisa Preta Essencial",
+    description: "Simplicidade que transcende",
     fullDescription:
-      "A statement piece designed for ultimate comfort. The plush velvet upholstery contrasts beautifully with the stark oak frame, creating a perfect balance between softness and structure.",
-    price: 850,
+      "A base de qualquer guarda-roupa com propósito. Algodão premium com toque macio e caimento impecável. Uma peça que fala por si, sem excessos.",
+    price: 289,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDp4e0y10sXWIDefyMrdIolfP9n8bgaoDXonBLfk8_uKHgMGNAto8g026m_R8Seun41yI3yxyjZcsptoaaIQU8yJRUb_aJo3VMC5GHvRNmQFK9wW4YRrkqyYiA1_LHwUhCROpW36DwfEjosQtJr2ArAnY6iBQCfcZyaBOInFgGxFD_ZDbx3Aigfob12VO1NfGg91f-bBwRorPefiXJ2Q5oigDUYJ0pMGBsJ5DRuOOapKUCMl14cWjYgd4efNqSghrOjZjNgkEueMwfN",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80",
     detailImage:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDp4e0y10sXWIDefyMrdIolfP9n8bgaoDXonBLfk8_uKHgMGNAto8g026m_R8Seun41yI3yxyjZcsptoaaIQU8yJRUb_aJo3VMC5GHvRNmQFK9wW4YRrkqyYiA1_LHwUhCROpW36DwfEjosQtJr2ArAnY6iBQCfcZyaBOInFgGxFD_ZDbx3Aigfob12VO1NfGg91f-bBwRorPefiXJ2Q5oigDUYJ0pMGBsJ5DRuOOapKUCMl14cWjYgd4efNqSghrOjZjNgkEueMwfN",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=1200&q=80",
     specs: [
-      { label: "Material", value: "Velvet & Oak" },
-      { label: "Dimensions", value: "75 x 80 x 85 cm" },
-      { label: "Weight", value: "18 kg" },
-      { label: "Colors", value: "Charcoal, Navy, Forest" },
+      { label: "Composição", value: "100% Algodão Pima" },
+      { label: "Tamanhos", value: "P, M, G, GG" },
+      { label: "Cuidados", value: "Lavar a 30°C" },
+      { label: "Origem", value: "Fabricação Nacional" },
     ],
-    tag: "New",
+    tag: "Essencial",
   },
   {
-    id: "industrial-lamp",
-    name: "Industrial Lamp",
-    description: "Raw aesthetics, warm light",
+    id: "camisa-branca-classica",
+    name: "Camisa Branca Clássica",
+    description: "Pureza em cada detalhe",
     fullDescription:
-      "Inspired by mid-century industrial design, this lamp combines raw steel with modern LED technology. The adjustable arm allows precise light positioning while the matte finish adds a touch of brutalist elegance.",
-    price: 320,
+      "O branco que ilumina sem ofuscar. Corte contemporâneo com acabamento artesanal. Para quem entende que a luz verdadeira vem de dentro.",
+    price: 289,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD7FfM2RFikc42SeMoSknHG1ZOnVquFr1rp7m1-MpdDeO-fOelhOX5xym4mMvO2-Ilo00DPZzxXcM9XkByu7znNDWeR1s0NQTWBKdIeXpYBSs37rrAdtLaVyl7O_rTuC_vQDWJWPEMdoT3W3Ul77DzrzkWYfntQLN2vaifE7P8qcgfc9T1RjFTUXXAm7Nj4uUsqM1566WDY76GVzq_SHX1OKjxNoS6IoY3E78BbLwexpFzd0o-SWHXLaqxhbgmSnLk1DSvL4J7_55Ie",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80",
     detailImage:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD7FfM2RFikc42SeMoSknHG1ZOnVquFr1rp7m1-MpdDeO-fOelhOX5xym4mMvO2-Ilo00DPZzxXcM9XkByu7znNDWeR1s0NQTWBKdIeXpYBSs37rrAdtLaVyl7O_rTuC_vQDWJWPEMdoT3W3Ul77DzrzkWYfntQLN2vaifE7P8qcgfc9T1RjFTUXXAm7Nj4uUsqM1566WDY76GVzq_SHX1OKjxNoS6IoY3E78BbLwexpFzd0o-SWHXLaqxhbgmSnLk1DSvL4J7_55Ie",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=1200&q=80",
     specs: [
-      { label: "Height", value: "45 cm" },
-      { label: "Material", value: "Steel" },
-      { label: "Bulb", value: "E27 LED" },
-      { label: "Cord Length", value: "2 m" },
+      { label: "Composição", value: "100% Algodão Egípcio" },
+      { label: "Tamanhos", value: "P, M, G, GG" },
+      { label: "Cuidados", value: "Lavar a 30°C" },
+      { label: "Origem", value: "Fabricação Nacional" },
     ],
     tag: "Bestseller",
   },
   {
-    id: "ceramic-set",
-    name: "Ceramic Set",
-    description: "Hand-thrown artisan pieces",
+    id: "camisa-cinza-grafite",
+    name: "Camisa Cinza Grafite",
+    description: "Equilíbrio entre mundos",
     fullDescription:
-      "Each piece in this collection is hand-thrown by master ceramicists in Portugal. The matte glaze and organic shapes celebrate the beauty of imperfection, making every set truly unique.",
-    price: 150,
+      "O cinza que une o claro e o escuro. Versatilidade com personalidade. Uma peça que transita entre momentos sem perder a essência.",
+    price: 299,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuC_O-C5dw7KCkMcC3IT-6zBWVBd4h2odsPmvSDFNqZfGo4U8743_nsCbX2J25WOE7mRCgpXb1qswRxtnNMa0mf1-cVlZsKAFyWtz4OiU-r2Tq4KD5hHtlqm2jfwKF7cgtbMXykxn51KeNV0PvqEmJe67ei9LrUhbP1rGpBQlRu8kHR8mskEvp6SnFsrdX4tV6mjXtgllUtG31_VpoqLC2885U83cvHSfQ7CkVc1mtNXyJ0Gnh_Gml2wRMD59Ts8nAqrZU1EONXtwdxh",
+      "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=800&q=80",
     detailImage:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuC_O-C5dw7KCkMcC3IT-6zBWVBd4h2odsPmvSDFNqZfGo4U8743_nsCbX2J25WOE7mRCgpXb1qswRxtnNMa0mf1-cVlZsKAFyWtz4OiU-r2Tq4KD5hHtlqm2jfwKF7cgtbMXykxn51KeNV0PvqEmJe67ei9LrUhbP1rGpBQlRu8kHR8mskEvp6SnFsrdX4tV6mjXtgllUtG31_VpoqLC2885U83cvHSfQ7CkVc1mtNXyJ0Gnh_Gml2wRMD59Ts8nAqrZU1EONXtwdxh",
+      "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=1200&q=80",
     specs: [
-      { label: "Pieces", value: "6 items" },
-      { label: "Material", value: "Stoneware" },
-      { label: "Finish", value: "Matte glaze" },
-      { label: "Care", value: "Dishwasher safe" },
+      { label: "Composição", value: "98% Algodão, 2% Elastano" },
+      { label: "Tamanhos", value: "P, M, G, GG" },
+      { label: "Cuidados", value: "Lavar a 30°C" },
+      { label: "Origem", value: "Fabricação Nacional" },
     ],
   },
   {
-    id: "modular-shelving",
-    name: "Modular Shelving",
-    description: "Infinite configurations",
+    id: "camisa-bege-natural",
+    name: "Camisa Bege Natural",
+    description: "Tons da terra prometida",
     fullDescription:
-      "A fully customizable shelving system built with powder-coated aluminum. Mix and match modules to create the perfect storage solution. Designed to evolve with your needs.",
-    price: 1200,
+      "Inspirada nas cores da natureza, tingida com pigmentos naturais. Conforto que abraça e estilo que permanece. Para os que caminham com os pés no chão.",
+    price: 319,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDD2UsSAQfEHyXbsR-v8IpXElSXTLcP3d2o9C3U9rOC9V2o7tE3OmNmUkemjKMZdDJ37fFT4eJuQOHlGxYe7jpupFQaQWCW17_XSDf6uZvIqbiPown2oBeTbCAfLzHyKDP8lW5u-FSQbu4ESxntrB2Lw_LrBQc1FMoTzJux-0y7zkmLg_COatuXVWPCV4HY9Magree6GzERTudc3KPgAgpI7Y5dNq-H_7-ssZEGcWUNVxKciR0YN-h44Xe9ZQcocTi6lYiE9qOLTwVp",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80",
     detailImage:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDD2UsSAQfEHyXbsR-v8IpXElSXTLcP3d2o9C3U9rOC9V2o7tE3OmNmUkemjKMZdDJ37fFT4eJuQOHlGxYe7jpupFQaQWCW17_XSDf6uZvIqbiPown2oBeTbCAfLzHyKDP8lW5u-FSQbu4ESxntrB2Lw_LrBQc1FMoTzJux-0y7zkmLg_COatuXVWPCV4HY9Magree6GzERTudc3KPgAgpI7Y5dNq-H_7-ssZEGcWUNVxKciR0YN-h44Xe9ZQcocTi6lYiE9qOLTwVp",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=1200&q=80",
     specs: [
-      { label: "Material", value: "Aluminum" },
-      { label: "Finish", value: "Powder-coated" },
-      { label: "Load Capacity", value: "30 kg/shelf" },
-      { label: "Colors", value: "Black, White, Grey" },
+      { label: "Composição", value: "100% Linho" },
+      { label: "Tamanhos", value: "P, M, G, GG" },
+      { label: "Cuidados", value: "Lavar a frio" },
+      { label: "Origem", value: "Fabricação Nacional" },
+    ],
+    tag: "Novo",
+  },
+  {
+    id: "camisa-azul-marinho",
+    name: "Camisa Azul Profundo",
+    description: "A cor da confiança",
+    fullDescription:
+      "Azul que remete à profundidade e à calma. Uma escolha para quem lidera com serenidade. Acabamento premium e durabilidade excepcional.",
+    price: 309,
+    image:
+      "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80",
+    detailImage:
+      "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=1200&q=80",
+    specs: [
+      { label: "Composição", value: "100% Algodão Pima" },
+      { label: "Tamanhos", value: "P, M, G, GG" },
+      { label: "Cuidados", value: "Lavar a 30°C" },
+      { label: "Origem", value: "Fabricação Nacional" },
     ],
   },
   {
-    id: "obsidian-lounge",
-    name: "Obsidian Lounge",
-    description: "Statement luxury seating",
+    id: "camisa-off-white",
+    name: "Camisa Off-White",
+    description: "Suavidade atemporal",
     fullDescription:
-      "The flagship piece of our collection. Premium leather wraps around a sculptural frame, creating a throne-like experience. Perfect for spaces that demand attention.",
-    price: 2400,
+      "Um branco suavizado que traz aconchego visual. Perfeita para todas as estações e ocasiões. Elegância discreta para quem não precisa provar nada.",
+    price: 289,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAxEJCmb_-3HhWzTjYFIJa6Z_oJlpiUvAf_FNvYqVz1i_Om7YwXRdAhulf2JmX9QQATucUJB-PflrFKzQ19w4CUypd3unqDIeZJJpgPexAooYVDUJsokjTP8Pn371PI13niL-8jSap0wWF_Eoa8dechLOKO2m8SrIgFarnK64Ay4L1n4RbaBVvqYe4pJJ-cAjEEHCx10NJb-WjoyJuNyYTlEwjq5R_7UX0cfs9vXz9_6CM_iKjkdUFq2E6sEngX3UmVfPA7kd3cLfub",
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800&q=80",
     detailImage:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAxEJCmb_-3HhWzTjYFIJa6Z_oJlpiUvAf_FNvYqVz1i_Om7YwXRdAhulf2JmX9QQATucUJB-PflrFKzQ19w4CUypd3unqDIeZJJpgPexAooYVDUJsokjTP8Pn371PI13niL-8jSap0wWF_Eoa8dechLOKO2m8SrIgFarnK64Ay4L1n4RbaBVvqYe4pJJ-cAjEEHCx10NJb-WjoyJuNyYTlEwjq5R_7UX0cfs9vXz9_6CM_iKjkdUFq2E6sEngX3UmVfPA7kd3cLfub",
+      "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=1200&q=80",
     specs: [
-      { label: "Material", value: "Full-grain leather" },
-      { label: "Frame", value: "Solid walnut" },
-      { label: "Dimensions", value: "90 x 95 x 80 cm" },
-      { label: "Weight", value: "32 kg" },
-    ],
-    tag: "Featured",
-  },
-  {
-    id: "brass-mirror",
-    name: "Brass Mirror",
-    description: "Sculptural reflection",
-    fullDescription:
-      "An oversized mirror framed in unpolished brass that develops a beautiful patina over time. The asymmetrical shape adds visual interest while the scale creates a sense of expansiveness.",
-    price: 680,
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDbghDOtPySGNkOARzXOj6ao3wV0uA88UdlYwVjR-GWWqEZkz-bjHQuzx9Obga9rd_lakt47Ot3_8vPLFIoIj8fH508yEzHQpD2MiB9i0FcxpEAaewvLsZTnJ5FJ2X8XANslYs7XIRBZBB1gTYjnAKjKuuVkHxsPE38mmQtJIA-b29iwbP7ks3c1N8VdYKfTSBqdDaNZ_SM_9PwOG99_y7CNGWHM0qwa36zV4stA3pujHVnWGm3ibaOSs6cvFxkloX5Z-QmU_-HrRDM",
-    detailImage:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDbghDOtPySGNkOARzXOj6ao3wV0uA88UdlYwVjR-GWWqEZkz-bjHQuzx9Obga9rd_lakt47Ot3_8vPLFIoIj8fH508yEzHQpD2MiB9i0FcxpEAaewvLsZTnJ5FJ2X8XANslYs7XIRBZBB1gTYjnAKjKuuVkHxsPE38mmQtJIA-b29iwbP7ks3c1N8VdYKfTSBqdDaNZ_SM_9PwOG99_y7CNGWHM0qwa36zV4stA3pujHVnWGm3ibaOSs6cvFxkloX5Z-QmU_-HrRDM",
-    specs: [
-      { label: "Frame", value: "Unpolished brass" },
-      { label: "Dimensions", value: "120 x 80 cm" },
-      { label: "Weight", value: "12 kg" },
-      { label: "Mounting", value: "Wall-mounted" },
+      { label: "Composição", value: "100% Algodão Orgânico" },
+      { label: "Tamanhos", value: "P, M, G, GG" },
+      { label: "Cuidados", value: "Lavar a 30°C" },
+      { label: "Origem", value: "Fabricação Nacional" },
     ],
   },
 ];

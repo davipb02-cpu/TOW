@@ -43,15 +43,15 @@ export default function HeroSection() {
         <div
           className="w-full h-full bg-cover bg-center transition-transform duration-1000 scale-100 group-hover:scale-105"
           style={{
-            backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuAxEJCmb_-3HhWzTjYFIJa6Z_oJlpiUvAf_FNvYqVz1i_Om7YwXRdAhulf2JmX9QQATucUJB-PflrFKzQ19w4CUypd3unqDIeZJJpgPexAooYVDUJsokjTP8Pn371PI13niL-8jSap0wWF_Eoa8dechLOKO2m8SrIgFarnK64Ay4L1n4RbaBVvqYe4pJJ-cAjEEHCx10NJb-WjoyJuNyYTlEwjq5R_7UX0cfs9vXz9_6CM_iKjkdUFq2E6sEngX3UmVfPA7kd3cLfub")`,
+            backgroundImage: `url("/images/hero-shirt.jpeg")`,
           }}
         />
 
         {/* Floating Spec Card */}
         <div className="absolute bottom-8 right-8 z-20 bg-black/80 backdrop-blur-xl p-4 rounded-xl border border-white/10 max-w-[200px] hidden md:block">
-          <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Featured</p>
-          <p className="text-white font-bold">Obsidian Lounge Chair</p>
-          <p className="text-primary mt-2 font-mono text-sm">$2,400.00</p>
+          <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Destaque</p>
+          <p className="text-white font-bold">Camisa Essencial Bege</p>
+          <p className="text-primary mt-2 font-mono text-sm">R$ 289,00</p>
         </div>
       </div>
 

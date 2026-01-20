@@ -1,12 +1,30 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { products } from "@/data/products";
 import ProductCard from "./ProductCard";
 import ProductDrawer from "./ProductDrawer";
 
 export default function ProductGrid() {
   const [selectedProductId, setSelectedProductId] = useState<string | null>(null);
+  const [columns, setColumns] = useState(3);
+
+  // Detectar número de colunas baseado no tamanho da tela
+  useEffect(() => {
+    const updateColumns = () => {
+      if (window.innerWidth < 768) {
+        setColumns(1); // mobile
+      } else if (window.innerWidth < 1024) {
+        setColumns(2); // tablet
+      } else {
+        setColumns(3); // desktop
+      }
+    };
+
+    updateColumns();
+    window.addEventListener("resize", updateColumns);
+    return () => window.removeEventListener("resize", updateColumns);
+  }, []);
 
   const selectedProduct = useMemo(
     () => products.find((p) => p.id === selectedProductId) || null,
@@ -21,20 +39,19 @@ export default function ProductGrid() {
     setSelectedProductId(null);
   };
 
-  // Calculate the row where the drawer should appear
+  // Calcular posição do drawer baseado no número de colunas atual
   const getDrawerPosition = () => {
     if (!selectedProductId) return -1;
     const index = products.findIndex((p) => p.id === selectedProductId);
-    // For a 3-column grid, drawer appears after the row containing the selected product
-    return Math.floor(index / 3);
+    return Math.floor(index / columns);
   };
 
   const drawerRow = getDrawerPosition();
 
-  // Group products into rows of 3
+  // Agrupar produtos em linhas baseado no número de colunas
   const rows: (typeof products)[] = [];
-  for (let i = 0; i < products.length; i += 3) {
-    rows.push(products.slice(i, i + 3));
+  for (let i = 0; i < products.length; i += columns) {
+    rows.push(products.slice(i, i + columns));
   }
 
   return (
@@ -42,7 +59,7 @@ export default function ProductGrid() {
       {/* Section Header */}
       <div className="flex justify-between items-end mb-16">
         <h3 className="font-display text-3xl font-bold text-white uppercase tracking-tight">
-          Featured Products
+          Produtos em Destaque
         </h3>
       </div>
 

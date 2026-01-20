@@ -21,11 +21,11 @@ export const products: Product[] = [
     tag: "Essencial",
   },
   {
-    id: "camisa-branca-classica",
+    id: "camisas-classicas",
     name: "Camisas Clássicas",
-    description: "Pureza em cada detalhe",
+    description: "Elegância em cada corte",
     fullDescription:
-      "O branco que ilumina sem ofuscar. Corte contemporâneo com acabamento artesanal. Para quem entende que a luz verdadeira vem de dentro.",
+      "Peças atemporais com corte contemporâneo e acabamento artesanal. Para quem entende que o clássico nunca sai de moda. Versatilidade para todas as ocasiões.",
     price: 289,
     image:
       "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80",
@@ -40,11 +40,11 @@ export const products: Product[] = [
     tag: "Bestseller",
   },
   {
-    id: "camisa-cinza-grafite",
+    id: "camisa-branca-basica",
     name: "Camisa Branca Básica",
-    description: "Equilíbrio entre mundos",
+    description: "Pureza em cada detalhe",
     fullDescription:
-      "O cinza que une o claro e o escuro. Versatilidade com personalidade. Uma peça que transita entre momentos sem perder a essência.",
+      "O branco que ilumina sem ofuscar. Uma peça fundamental que combina com tudo. Tecido leve com toque macio, perfeita para o dia a dia com propósito.",
     price: 299,
     image:
       "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=800&q=80",
@@ -58,11 +58,11 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "camisa-bege-natural",
+    id: "camisa-azul-natural",
     name: "Camisa Azul Natural",
-    description: "Tons da terra prometida",
+    description: "A cor da serenidade",
     fullDescription:
-      "Inspirada nas cores da natureza, tingida com pigmentos naturais. Conforto que abraça e estilo que permanece. Para os que caminham com os pés no chão.",
+      "Azul que remete à profundidade e à calma. Uma escolha para quem caminha com serenidade. Tingimento natural que valoriza a autenticidade do tecido.",
     price: 319,
     image:
       "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80",
@@ -77,11 +77,11 @@ export const products: Product[] = [
     tag: "Novo",
   },
   {
-    id: "camisa-azul-marinho",
+    id: "camisas-social-variedade",
     name: "Camisas Social Variedade",
-    description: "O estilo da confiança",
+    description: "Sofisticação para cada momento",
     fullDescription:
-      "Azul que remete à profundidade e à calma. Uma escolha para quem lidera com serenidade. Acabamento premium e durabilidade excepcional.",
+      "Linha completa de camisas sociais em diferentes cores e estilos. Acabamento premium e durabilidade excepcional. Para quem lidera com elegância e propósito.",
     price: 309,
     image:
       "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80",

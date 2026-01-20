@@ -7,23 +7,27 @@ import ProductDrawer from "./ProductDrawer";
 
 export default function ProductGrid() {
   const [selectedProductId, setSelectedProductId] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
   const [columns, setColumns] = useState(3);
 
-  // Detectar número de colunas baseado no tamanho da tela
+  // Detectar tamanho da tela
   useEffect(() => {
-    const updateColumns = () => {
-      if (window.innerWidth < 768) {
-        setColumns(1); // mobile
+    const updateLayout = () => {
+      const mobile = window.innerWidth < 768;
+      setIsMobile(mobile);
+
+      if (mobile) {
+        setColumns(1);
       } else if (window.innerWidth < 1024) {
-        setColumns(2); // tablet
+        setColumns(2);
       } else {
-        setColumns(3); // desktop
+        setColumns(3);
       }
     };
 
-    updateColumns();
-    window.addEventListener("resize", updateColumns);
-    return () => window.removeEventListener("resize", updateColumns);
+    updateLayout();
+    window.addEventListener("resize", updateLayout);
+    return () => window.removeEventListener("resize", updateLayout);
   }, []);
 
   const selectedProduct = useMemo(
@@ -79,8 +83,8 @@ export default function ProductGrid() {
               ))}
             </div>
 
-            {/* Drawer appears after this row if selected product is in this row */}
-            {drawerRow === rowIndex && selectedProduct && (
+            {/* Drawer apenas no tablet/desktop - no mobile os detalhes aparecem inline no card */}
+            {!isMobile && drawerRow === rowIndex && selectedProduct && (
               <div className="mt-8">
                 <ProductDrawer product={selectedProduct} onClose={handleCloseDrawer} />
               </div>

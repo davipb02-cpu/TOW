@@ -22,7 +22,7 @@ export const products: Product[] = [
   },
   {
     id: "camisa-branca-classica",
-    name: "Camisa Branca Clássica",
+    name: "Camisas Clássicas",
     description: "Pureza em cada detalhe",
     fullDescription:
       "O branco que ilumina sem ofuscar. Corte contemporâneo com acabamento artesanal. Para quem entende que a luz verdadeira vem de dentro.",
@@ -41,7 +41,7 @@ export const products: Product[] = [
   },
   {
     id: "camisa-cinza-grafite",
-    name: "Camisa Cinza Grafite",
+    name: "Camisa Branca Básica",
     description: "Equilíbrio entre mundos",
     fullDescription:
       "O cinza que une o claro e o escuro. Versatilidade com personalidade. Uma peça que transita entre momentos sem perder a essência.",
@@ -59,7 +59,7 @@ export const products: Product[] = [
   },
   {
     id: "camisa-bege-natural",
-    name: "Camisa Bege Natural",
+    name: "Camisa Azul Natural",
     description: "Tons da terra prometida",
     fullDescription:
       "Inspirada nas cores da natureza, tingida com pigmentos naturais. Conforto que abraça e estilo que permanece. Para os que caminham com os pés no chão.",
@@ -78,8 +78,8 @@ export const products: Product[] = [
   },
   {
     id: "camisa-azul-marinho",
-    name: "Camisa Azul Profundo",
-    description: "A cor da confiança",
+    name: "Camisas Social Variedade",
+    description: "O estilo da confiança",
     fullDescription:
       "Azul que remete à profundidade e à calma. Uma escolha para quem lidera com serenidade. Acabamento premium e durabilidade excepcional.",
     price: 309,

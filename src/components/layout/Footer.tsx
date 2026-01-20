@@ -12,7 +12,7 @@ export default function Footer() {
             <br />
             Todos direitos reservados.
             <br />
-            por Sling AI
+            Desenvolvido por Sling AI
           </div>
         </div>
 

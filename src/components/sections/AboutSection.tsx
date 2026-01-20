@@ -2,16 +2,16 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-24 px-6 max-w-[1440px] mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-        <div className="sticky top-32 self-start">
-          <h2 className="text-[120px] leading-[0.8] font-black opacity-10 select-none text-white absolute -top-10 -left-10 z-0">
+        <div className="md:sticky md:top-32 self-start">
+          <h2 className="text-[80px] md:text-[120px] leading-[0.8] font-black opacity-10 select-none text-white absolute -top-6 md:-top-10 -left-4 md:-left-10 z-0">
             01
           </h2>
-          <h2 className="text-5xl font-bold uppercase tracking-tighter relative z-10 mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tighter relative z-10 mb-6 md:mb-8">
             A Visão
           </h2>
-          <div className="h-1 w-20 bg-primary mb-8"></div>
+          <div className="h-1 w-20 bg-primary mb-6 md:mb-8"></div>
           <div
-            className="aspect-square bg-cover bg-center rounded-lg grayscale hover:grayscale-0 transition-all duration-700"
+            className="w-48 h-48 md:w-full md:aspect-square bg-cover bg-center rounded-lg grayscale hover:grayscale-0 transition-all duration-700 mx-auto md:mx-0"
             style={{
               backgroundImage: `url("https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80")`,
             }}
